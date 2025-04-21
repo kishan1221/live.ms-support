@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Customer Support</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0078d7;
+        }
+
+        p {
+            color: #333;
+            text-align: justify;
+            text-align-last: center;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Microsoft Customer Support</h1>
+        <p>If you're experiencing issues with your Microsoft account, our customer support team is here to help. Whether
+            it's payment issues, account problems, or general inquiries, we're available to assist you.</p>
+        <p>We understand how important a smooth transaction experience is. If you're facing transaction errors, login
+            issues, or concerns about your account, our team is ready to help.</p>
+        <p>Microsoft customer support is available during business hours. Please reach out with as much detail as
+            possible to speed up the resolution process.</p>
+
+        <div class="buttons">
+            <button class="btn" onclick="callSupport()">Toll free for Microsoft Support</button>
+            <button class="btn" onclick="callSupport()">Microsoft Help-Center</button>
+            <p>For further assistance, visit our help center on the official Microsoft website for additional resources
+                and FAQs.</p>
+            <button class="btn" onclick="callSupport()">Need help? Call Microsoft Support</button>
+        </div>
+    </div>
+</body>
+
+<script>
+     function callSupport() {
+            window.open('tel:+18774192884');
+        }
+</script>
+
+</html>
